@@ -48,7 +48,7 @@
         <antcall target="build"/>
     </target>
     <target name="HelloWorld">
-        <java classname="HelloWorld" failonerror="true" fork="yes">
+        <java classname="main.HelloWorld" failonerror="true" fork="yes">
             <classpath refid="HelloWorld.classpath"/>
         </java>
     </target>
